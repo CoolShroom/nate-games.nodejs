@@ -1,0 +1,13 @@
+{
+  "name": "nate-games",
+  "version": "1.0.0",
+  "description": "nodejs deployment",
+  "scripts": {
+    "start": "npm run clone-repo && npm install && node server.js",
+    "clone-repo": "git clone https://github.com/nate-games/nate-games.github.io.git",
+    "serve-static": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
